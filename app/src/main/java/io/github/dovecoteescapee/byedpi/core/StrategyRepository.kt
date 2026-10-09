@@ -23,8 +23,8 @@ object StrategyRepository {
     // Зеркала одного и того же файла в этом форке — если одно недоступно (блокировка,
     // сбой), пробуем следующее. jsDelivr отдаёт GitHub-контент через свою CDN.
     private val SOURCES = listOf(
-        "https://cdn.jsdelivr.net/gh/devstivi/ByeDPIAndroid@main/strategies/strategies.json",
-        "https://raw.githubusercontent.com/devstivi/ByeDPIAndroid/main/strategies/strategies.json",
+        "https://cdn.jsdelivr.net/gh/devstivi/ByeDPIAndroid@master/strategies/strategies.json",
+        "https://raw.githubusercontent.com/devstivi/ByeDPIAndroid/master/strategies/strategies.json",
     )
 
     private const val TIMEOUT_MS = 8000
