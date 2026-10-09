@@ -191,6 +191,11 @@ class MainActivity : AppCompatActivity() {
                 true
             }
 
+            R.id.action_strategies -> {
+                startActivity(Intent(this, StrategiesActivity::class.java))
+                true
+            }
+
             R.id.action_save_logs -> {
                 val intent =
                     Intent(Intent.ACTION_CREATE_DOCUMENT).apply {

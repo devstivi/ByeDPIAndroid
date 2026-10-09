@@ -1,5 +1,12 @@
 <resources>
     <string name="byedpi_docs">https://github.com/hufrea/byedpi/blob/v0.13/README.md</string>
+    <string name="strategies_title">Strategies</string>
+    <string name="strategies_subtitle">Updated: %1$s · curated from public issue reports, nothing is sent from this device</string>
+    <string name="strategies_load_failed">Failed to load the strategy list (no network and no cached copy)</string>
+    <string name="strategy_apply">Apply</string>
+    <string name="strategy_applied">Strategy applied. Start the proxy/VPN to use it</string>
+    <string name="strategy_confirmations">Confirmations: %1$d</string>
+    <string name="strategy_operator_generic">Generic / unspecified</string>
     <string name="app_name">ByeDPI</string>
     <string name="vpn_connect">Connect</string>
     <string name="vpn_disconnect">Disconnect</string>
